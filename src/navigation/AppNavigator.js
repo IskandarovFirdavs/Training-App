@@ -13,6 +13,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import Stage1 from "../stages/Stage1/Stage1";
 import Stage2 from "../stages/Stage2";
 import Stage3 from "../stages/Stage3";
+import Stage4 from "../stages/Stage4";
 
 const Stack = createStackNavigator();
 
@@ -104,6 +105,13 @@ const AppNavigator = () => {
             component={Stage3}
             options={{
               headerTitle: "3-Bosqich",
+            }}
+          />
+          <Stack.Screen
+            name="Stage4"
+            component={Stage4}
+            options={{
+              headerTitle: "4-Bosqich",
             }}
           />
         </Stack.Navigator>
