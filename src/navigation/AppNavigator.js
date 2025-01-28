@@ -16,6 +16,7 @@ import Stage3 from "../stages/Stage3";
 import Stage4 from "../stages/Stage4";
 import Stage5 from "../stages/Stage5";
 import Stage6 from "../stages/Stage6";
+import Stage7 from "../stages/Stage7";
 
 const Stack = createStackNavigator();
 
@@ -128,6 +129,13 @@ const AppNavigator = () => {
             component={Stage6}
             options={{
               headerTitle: "6-Bosqich",
+            }}
+          />
+          <Stack.Screen
+            name="Stage7"
+            component={Stage7}
+            options={{
+              headerTitle: "7-Bosqich",
             }}
           />
         </Stack.Navigator>
