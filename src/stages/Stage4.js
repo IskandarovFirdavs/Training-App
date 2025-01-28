@@ -80,7 +80,7 @@ const Stage4 = () => {
 
       <View style={styles.buttonContainer}>
         {renderButton(
-          "2. Chiroyli va xunuk",
+          "3. Chiroyli va xunuk",
           "Stage3",
           ``,
           require("../../assets/images/beuty.png")
@@ -88,7 +88,7 @@ const Stage4 = () => {
       </View>
       <View style={styles.buttonContainer}>
         {renderButton(
-          "3. Yoqtirgan isming",
+          "4. Yoqtirgan isming",
           "Stage4",
           ``,
           require("../../assets/images/name.png")
@@ -96,7 +96,7 @@ const Stage4 = () => {
       </View>
       <View style={styles.buttonContainer}>
         {renderButton(
-          "4. Kayfiyatim",
+          "5. Kayfiyatim",
           "Stage5",
           ``,
           require("../../assets/images/mood.png")
@@ -104,7 +104,7 @@ const Stage4 = () => {
       </View>
       <View style={styles.buttonContainer}>
         {renderButton(
-          "5. Orzuim",
+          "6. Orzuim",
           "Stage6",
           ``,
           require("../../assets/images/dream.png")
